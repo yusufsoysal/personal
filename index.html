@@ -1,0 +1,329 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Strata by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<style>
+			#newSection {
+				position: relative;
+				text-align: center;
+			    height: 450px;
+			}
+			.tmtimeline {
+			    margin: 0;
+			    padding: 0;
+			    list-style: none;
+			    position: relative;
+			}
+			.tmtimeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 7px;
+    background: #d8e3e6;
+    left: 20%;
+    margin-left: -4px;
+}
+.tmtimeline:after {
+    left: 20%;
+    margin-left: -15px;
+    content: "";
+    height: 30px;
+    background: #d24d33;
+    box-shadow: 0 0 0 5px #d8e3e6;
+    width: 30px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -15px;
+}
+			.tmtimeline > li .tmtime {
+			    display: block;
+			    width: 25%;
+			    padding-right: 10%;
+			    position: absolute;
+			}
+			.tmtimeline > li .tmtime:before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 21px;
+    right: -18px;
+    background: #d8e3e6;
+    height: 7px;
+    width: 20%;
+    z-index: 2;
+}
+.tmtimeline > li .tmlabel:after {
+    left: 10px;
+    content: "";
+    height: 15px;
+    background: #d8e3e6;
+    box-shadow: 0 0 0 5px #fff;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+}
+.tmtimeline > li:nth-child(odd) .tmlabel:after {
+    border-right-color: #f9f9f9;
+}
+
+.tmtimeline > li .tmtime span {
+    display: block;
+    margin-top:15px;
+    padding-right: 10px;
+    text-align: right;
+    color: #858689;
+}
+			.tmtimeline > li .tmicon {
+    width: 45px;
+    height: 45px;
+    font-size: 0;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px #d8e3e6;
+    text-align: center;
+    left: 20%;
+    padding: 5px;
+    border: 5px solid #fff;
+    top: 5px;
+    margin: 0 0 0 -27px;
+}
+.n11 {
+    background-color: #ffffff;
+    background-image: url(images/n11.png);
+}
+.aol {
+    background-color: #ffffff;
+    background-image: url(images/aol.png);
+}
+.turkcell {
+    background-color: #ffffff;
+    background-image: url(images/turkcell.jpg);
+}
+.fortis {
+    background-color: #ffffff;
+    background-image: url(images/fortis.png);
+}
+.pink-btn, .bg-pink, .powerwidget.pink {
+    background-color: #ffffff;
+    background-image: url(images/n11.png);
+}
+.blue-btn, .bg-blue, .powerwidget.blue {
+    background-color: #5bc0de;
+}
+.cold-grey-btn, .bg-cold-grey, .powerwidget.cold-grey {
+    background-color: #595f66;
+}
+.yellow-btn, .bg-yellow, .powerwidget.yellow {
+    background-color: #f4cc13;
+}
+.red-btn, .bg-red, .powerwidget.red {
+    background-color: #d24d33;
+}
+.marine-btn, .bg-marine, .powerwidget.marine {
+    background-color: #00a9ae;
+}
+.tmtimeline > li:nth-child(odd) .tmlabel {
+    background: #f9f9f9;
+}
+.tmtimeline > li .tmlabel {
+    margin: -40px 0 15px 25%;
+    background: #f1f1f1;
+    padding: 15px;
+    padding-left: 40px;
+    position: relative;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.tmtimeline > li .tmicon:before {
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    color: #fff;
+}
+
+.tmtimeline > li .tmicon:after {
+    position: absolute;
+    content: "";
+    box-sizing: content-box;
+}
+.tmtimeline > li .tmlabel h2 {
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 0;
+}
+		</style>
+	</head>
+	<body id="top">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+				<h1><strong>Yusuf Uğur Soysal</strong><br />
+				senior java developer<br />
+				London, UK</h1>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+				<!--
+					<section id="one">
+						<header class="major">
+							<h2>Ipsum lorem dolor aliquam ante commodo<br />
+							magna sed accumsan arcu neque.</h2>
+						</header>
+						<p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+					</section>
+					-->
+
+					<section id="one">
+						<h2>Experience</h2>
+						<ul class="tmtimeline">
+                    <li>
+                      <time class="tmtime"><span>2016 ...</span></time>
+                      <div class="tmicon n11"></div>
+                      <div class="tmlabel">
+                        <h2>n11.com, Software Development Manager</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus turpis quis neque imperdiet, eleifend feugiat erat consectetur. Donec eget fringilla lorem, eget auctor sapien.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <time class="tmtime"><span>2014 - 2016</span></time>
+                      <div class="tmicon n11"></div>
+                      <div class="tmlabel">
+                        <h2>n11.com, Technical Team Lead</h2>
+                        <p>Caulie dandelion maize lentil collard greens radish arugula 
+                          sweet pepper water spinach kombu courgette lettuce. Celery coriander 
+                          bitterleaf epazote radicchio shallot winter purslane collard greens 
+                          spring onion squash lentil. Artichoke salad bamboo shoot black-eyed pea 
+                          brussels sprout garlic kohlrabi.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <time class="tmtime"><span>2013 - 2014</span></time>
+                      <div class="tmicon aol"></div>
+                      <div class="tmlabel">
+                        <h2>AOL, Software Engineer</h2>
+                        <p>Nam tincidunt neque nec est bibendum, ut cursus nulla egestas. Etiam at mi vel sem viverra euismod. Nam scelerisque metus urna, ut facilisis augue dictum quis.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <time class="tmtime"><span>2007 - 2013</span></time>
+                      <div class="tmicon turkcell"></div>
+                      <div class="tmlabel">
+                        <h2>Turkcell Technology, Senior Software Engineer</h2>
+                        <p> Donec fringilla metus dui, placerat pulvinar lectus elementum ullamcorper. Quisque dignissim nulla at purus volutpat placerat. In a justo purus.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <time class="tmtime"><span>2004 - 2006</span></time>
+                      <div class="tmicon fortis"></div>
+                      <div class="tmlabel">
+                        <h2>Fortis Bank, Software Developer</h2>
+                        <p>Fusce pretium nibh eros, at adipiscing neque euismod eget. Suspendisse sollicitudin justo vel urna sollicitudin, sed pellentesque dolor ultricies.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <time class="tmtime"><span>2004</span></time>
+                      <div class="tmicon bg-marine fa-chrome"></div>
+                      <div class="tmlabel">
+                        <h2>Tossbaa, Software Developer</h2>
+                        <p> Fusce feugiat ornare libero sed gravida. Aenean metus est, suscipit nec condimentum ac, facilisis eget lorem. Suspendisse rutrum lorem orci. Ut in ligula neque. Phasellus a enim at leo pellentesque dapibus. Integer dignissim sem eu venenatis facilisis. Sed quis neque nec lectus gravida euismod. Nam sollicitudin, nisl nec lacinia blandit, magna felis pharetra enim, et lacinia metus ipsum et est.</p>
+                      </div>
+                    </li>
+                    <li>
+                      <time class="tmtime"><span>2001 - 2003</span></time>
+                      <div class="tmicon bg-marine fa-firefox"></div>
+                      <div class="tmlabel">
+                        <h2>2U Information Technologies, Software Developer</h2>
+                        <p> Fusce feugiat ornare libero sed gravida. Aenean metus est, suscipit nec condimentum ac, facilisis eget lorem. Suspendisse rutrum lorem orci. Ut in ligula neque. Phasellus a enim at leo pellentesque dapibus. Integer dignissim sem eu venenatis facilisis. Sed quis neque nec lectus gravida euismod. Nam sollicitudin, nisl nec lacinia blandit, magna felis pharetra enim, et lacinia metus ipsum et est.</p>
+                      </div>
+                    </li>
+                  </ul>
+					</section>
+
+          <section id="two">
+            <header class="major">
+              <h2>Ipsum lorem dolor aliquam ante commodo<br />
+              magna sed accumsan arcu neque.</h2>
+            </header>
+            <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+            <ul class="actions">
+              <li><a href="#" class="button">Learn More</a></li>
+            </ul>
+          </section>
+
+				<!-- Three -->
+					<section id="three">
+						<h2>Get In Touch</h2>
+						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<div class="row">
+							<div class="8u 12u$(small)">
+								<form method="post" action="#">
+									<div class="row uniform 50%">
+										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+								</form>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div>
+							<div class="4u$ 12u$(small)">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon fa-home"><span class="label">Address</span></h3>
+										1234 Somewhere Rd.<br />
+										Nashville, TN 00000<br />
+										United States
+									</li>
+									<li>
+										<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
+										000-000-0000
+									</li>
+									<li>
+										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+										<a href="#">hello@untitled.tld</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+					<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
